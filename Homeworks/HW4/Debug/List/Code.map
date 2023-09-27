@@ -1,0 +1,27 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+numbers                                                                           0x0260      10
+second2                                                                           0x026A       2
+dot                                                                               0x026C       1
+counter                                                                           0x026D       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hour1                                                                             R4,R5        2
+hour2                                                                             R6,R7        2
+minute1                                                                           R8,R9        2
+minute2                                                                           R10,R11      2
+second1                                                                           R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_comp_isr                                                                   0x0006C     31
+timer1_compa_isr                                                                  0x0008B    106
+main                                                                              0x000F5    126

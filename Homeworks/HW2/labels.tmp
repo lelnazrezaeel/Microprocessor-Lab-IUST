@@ -1,0 +1,52 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega32</DEVICE>
+ <WORKING_DIR>E:\University\Term8\MP\HW2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\University\Term8\MP\HW2\HW2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\University\Term8\MP\HW2\HW2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\University\Term8\MP\HW2\HW2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\University\Term8\MP\HW2\HW2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BEGIN><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>18</LINE></BEGIN>
+  <Increment><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>28</LINE></Increment>
+  <inc0><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>40</LINE></inc0>
+  <dec0><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>71</LINE></dec0>
+  <Start><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>35</LINE></Start>
+  <inc1><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>46</LINE></inc1>
+  <DISPLAY><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>158</LINE></DISPLAY>
+  <inc2><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>53</LINE></inc2>
+  <inc3><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>60</LINE></inc3>
+  <inc4><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>66</LINE></inc4>
+  <dec1><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>78</LINE></dec1>
+  <dec2><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>85</LINE></dec2>
+  <dec3><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>92</LINE></dec3>
+  <dec4><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>98</LINE></dec4>
+  <CONVERT><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>103</LINE></CONVERT>
+  <C1><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>108</LINE></C1>
+  <C2><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>113</LINE></C2>
+  <C3><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>118</LINE></C3>
+  <C4><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>123</LINE></C4>
+  <C5><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>128</LINE></C5>
+  <C6><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>133</LINE></C6>
+  <C7><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>138</LINE></C7>
+  <C8><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>143</LINE></C8>
+  <C9><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>148</LINE></C9>
+  <C10><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>152</LINE></C10>
+  <DELAY><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>187</LINE></DELAY>
+  <L1><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>189</LINE></L1>
+  <L2><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>190</LINE></L2>
+  <L3><FILE>E:\University\Term8\MP\HW2\HW2.asm</FILE><LINE>191</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>

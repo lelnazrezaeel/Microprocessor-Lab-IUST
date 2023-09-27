@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:50C7AEDA
+NODE:I LEVEL:0 LINE:24 "C:\Users\Fateme A\Desktop\Alireza\cvavr2\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\Users\Fateme A\Desktop\Alireza\cvavr2\inc\delay.h"
+NODE:V LEVEL:0 LINE:29 "image_code -> RAM:????"
+NODE:F LEVEL:0 LINE:49 "main(void)"

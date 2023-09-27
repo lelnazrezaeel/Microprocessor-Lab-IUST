@@ -1,0 +1,98 @@
+// bavan divaaniazar 98522211
+
+#include <mega32.h>
+#include <stdlib.h>
+#include <string.h>
+#include <delay.h>
+#include <alcd.h>
+
+unsigned int ms = 0, s = 0, m = 58, h = 23;
+char str_ms[], str_s[], str_m[], str_h[];
+
+interrupt[TIM1_COMPA] void timer1_compa_isr(void)
+{
+    ms += 1;
+
+    if (ms == 10)
+    {
+        ms = 0;
+        s++;
+    }
+    if (s == 60)
+    {
+        s = 0;
+        m++;
+
+        lcd_gotoxy(9, 1);
+        lcd_puts("  ");
+    }
+
+    if (m == 60)
+    {
+        m = 0;
+        h++;
+
+        lcd_gotoxy(6, 1);
+        lcd_puts("  ");
+    }
+
+    if (h == 24)
+    {
+        h = 0;
+        lcd_gotoxy(3, 1);
+        lcd_puts("  ");
+    }
+
+    itoa(ms, str_ms);
+    lcd_gotoxy(12, 1);
+    lcd_puts(str_ms);
+
+    itoa(s, str_s);
+    lcd_gotoxy(9, 1);
+    lcd_puts(str_s);
+
+    itoa(m, str_m);
+    lcd_gotoxy(6, 1);
+    lcd_puts(str_m);
+
+    itoa(h, str_h);
+    lcd_gotoxy(3, 1);
+    lcd_puts(str_h);
+}
+
+void main(void)
+{
+
+    DDRC = 0xFF;
+    PORTC = 0x00;
+    TCCR1A = 0x00;
+    TCCR1B = 0x0C;
+    TCNT1H = 0x00;
+    TCNT1L = 0x00;
+    ICR1H = 0x00;
+    ICR1L = 0x00;
+    OCR1AH = 0x0C;
+    OCR1AL = 0x35;
+    OCR1BH = 0x00;
+    OCR1BL = 0x00;
+    TIMSK = 0x10;
+
+#asm("sei")
+
+    lcd_init(16);
+    lcd_clear();
+
+    lcd_gotoxy(3, 0);
+    lcd_puts("LCD CLOCK");
+
+    lcd_gotoxy(5, 1);
+    lcd_puts(":");
+    lcd_gotoxy(8, 1);
+    lcd_puts(":");
+    lcd_gotoxy(11, 1);
+    lcd_puts(":");
+
+    while (1)
+    {
+    }
+}
