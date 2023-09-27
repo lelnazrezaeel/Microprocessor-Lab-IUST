@@ -5,7 +5,7 @@ My solutions to IUST's Microprocessor Laboratory, Spring 2023, Dr. Mashhoun.
 - Description: This section contains questions and answers from previous semesters' exams.
 - [Link to Exams](https://github.com/lelnazrezaeel/Microprocessor-Lab-IUST/tree/main/Exams)
 
-## <img width="20" height="20" src="https://img.icons8.com/wired/64/41b883/test-passed.png" alt="test-passed"/> Final Exam
+## <img width="20" height="20" src="https://img.icons8.com/wired/64/41b883/test-passed.png" alt="test-passed"/> Final
 - Description: In this section, you can find my answers to the final exam.
 - [Link to Final](https://github.com/lelnazrezaeel/Microprocessor-Lab-IUST/blob/main/Final)
 
